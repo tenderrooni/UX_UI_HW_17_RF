@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #2A2A34;
+    color: #ccd5c2;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #505057;
+    height: 100px;
+    position: relative;
+}
+
+.inline-block{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.inline-block.logo{
+    margin-right: 40px;
+}
+
+.inline-block.menu{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.logo img{
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.work{
+    font-size: 64px;
+    text-transform: uppercase;
+    color:#ccd5c2;
+    margin-right: 80px;
+    align-self: flex-end;
+    position: absolute;
+    right: 70px;
+}
+
+.work p{
+    margin: 0;
+}
+
+.menu button {
+    background-color: #505057;
+    boarder: none;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu button img{
+    background-color: #505057;
+    width: 60px !important;
+    height: auto !important;
+}
+
+iframe{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.heroImg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 50px 20px;
+}
+
+.heroImg img{
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.heroImg h1{
+    font-size: 6vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.heroImg h1:nth-of-type(2){
+    margin-left: 60px;
+}
+
+.heroImg h2{
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.heroImg p{
+    font-size: 30px;
+    font-weight: thin;
+    line-height: 35px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+}
+
+.button-wrapper img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+}
+
+
+.fun-facts-button {
+    background-color: #E0D5D5;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+.smiley{
+    width: 50px;
+    height: 50px;
+}
+
+
+.skills {
+    margin-top: 0vw;
+    text-align: center;
+    flex-direction: column;
+}
+
+.skills h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 5vw;
+    gap: 15vw;
+}
+
+.skills-row > div{
+    flex: 1;
+    text-align: center;
+}
+
+.skills-row h3 {
+    font-size: 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: ;
+}
+
+.skill-list {
+    list-style: none;
+    text-align: center;
+    font-size: 1.8vw;
+    margin-top: -70px;
+}
+
+.footer h2 {
+    font-size: 56px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.footer h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+
+
+form label {
+    font-size: 32px;
+    display: block;
+}
+
+
+form input[type="text"],
+form textarea {
+    background-color: #2A2A34;
+    border: 2px solid #F0EDEE;
+    color: #CCD5C2;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 40px;
+    box-sizing: boarder-box;
+}
+
+form input[type="text"] {
+    width: calc(33.33% - 40px);
+    margin-right: 40px;
+}
+
+form textarea {
+    width: calc(66.66% - 40px);
+}
+
+form .input-row {
+    padding: 20px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+}
+
+
+form input[type="submit"] {
+    font-size: 32px;
+    background-color: #2A2A34;
+    border: 2px solid #F0EDEE;
+    color: #CCD5C2;
+    padding: 10px 20px;
+}
