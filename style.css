@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     font-family: 'League Spartan', sans-serif;
@@ -21,7 +23,8 @@ body{
 }
 
 .inline-block.logo{
-    margin-right: 40px;
+    margin-right: 30px;
+    position: relative;
 }
 
 .inline-block.menu{
@@ -37,7 +40,7 @@ body{
 }
 
 .work{
-    font-size: 64px;
+    font-size: 8vw;
     text-transform: uppercase;
     color:#ccd5c2;
     margin-right: 80px;
@@ -69,6 +72,7 @@ iframe{
     margin-left: 20px;
     border-radius: 12px;
     margin-right: 20px;
+    position: inherit;
 }
 
 .heroImg{
@@ -207,43 +211,42 @@ iframe{
     justify-content: flex-start;
     font-size: 2vw;
     margin-top: 0;
-    
-
 }
 
-
-
-
-
 .footer h2 {
-    font-size: 56px;
+    font-size: 3vw;
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: 80px;
-    margin-top: 50px;
+    margin-left: 250px;
+    margin-top: 110px;
 }
 
 .footer h1 {
-    font-size: 64px;
+    font-size: 4vw;
     font-weight: bold;
-    margin-left: 120px;
+    margin-left: 300px;
     margin-top: 70px;
 }
 
 
-form label {
-    font-size: 32px;
-    display: block;
+.input-group{
+    grid-column: span 2;
 }
 
+
+
+form label {
+    font-size: 3vw;
+    display: block;
+}
 
 form input[type="text"],
 form textarea {
     background-color: #2A2A34;
-    border: 2px solid #F0EDEE;
+    border: .12vw solid #F0EDEE;
     color: #CCD5C2;
-    font-size: 24px;
-    padding: 10px;
+    font-size: 2vw;
+    padding: 1vw;
     margin-right: 40px;
     box-sizing: boarder-box;
 }
@@ -259,15 +262,24 @@ form textarea {
 
 form .input-row {
     padding: 20px;
+    margin-top: 70px;
     margin-bottom: 70px;
     margin-left: 40px;
 }
 
-
 form input[type="submit"] {
-    font-size: 32px;
-    background-color: #2A2A34;
-    border: 2px solid #F0EDEE;
-    color: #CCD5C2;
+    font-size: 3vw;
+    background-color: #b4b4e3;
+    border: .1vw solid #F0EDEE;
+    color: #364328;
     padding: 10px 20px;
 }
+
+@media only screen and (max-width:800px){
+.work{
+    display:none;
+}
+
+}
+    
+
