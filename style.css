@@ -179,33 +179,36 @@ iframe{
 
 .skills-row {
     display: flex;
-    justify-content: space-between;
-    margin: 7vw 5vw;
+    justify-content: space-around;
     gap: 10vw;
 }
 
 .skills-row > div{
     flex: 1;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 
 .skills-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flexbox;
+    justify-content: flex-start;
 }
 
 .skills-row h3 {
     font-size: 3vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
 }
 
 .skill-list {
     list-style: none;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.8vw;
+    display: flexbox;
+    justify-content: flex-start;
+    font-size: 2vw;
+    margin-top: 0;
+    
+
 }
 
 
