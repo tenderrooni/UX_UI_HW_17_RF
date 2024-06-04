@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>roonifaye.com</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
@@ -34,22 +36,27 @@
                         <h1> HEYOOO,</h1>
                         <h1> I'M ROONI (ROO-NEE)</h1>
                         <h2> DESIGN THINKER & FIXER OF THINGS</h2>
-                        <div class="button-wrapper">
-                            <button class="fun-facts-button">
-                                <svg viewBox="-5 -5 50 55" xmlns="http://www.w3.org/2000/svg">
-                                    <path id="MyPath" fill="none" d="M 0 -4 Q -10 -4 40 " pathLength="3" />
-                                    <text class="title is-4" font-size="9" text-anchor="middle">
-                                      <textPath href="#MyPath" startOffset="2">
-                                       fun facts
-                                      </textPath>
-                                    </text>
-                                  </svg>
-                            
-                                    
-
-                                <img src="images/smiley.png" alt="Smiley" class="smiley">
-                            </button>
-                        </div>
+                       <div class="button-wrapper">
+    <button class="fun-facts-button">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <path id="topPath" d="M16,52 A34,32 0 0,1 90,40" />
+                <path id="bottomPath" d="M18,70 A35,30 0 0,0 88,70" />
+            </defs>
+            <text class="curved-text">
+                <textPath href="#topPath">
+                    wanna know some
+                </textPath>
+            </text>
+            <text class="curved-text">
+                <textPath href="#bottomPath" startOffset="60%" text-anchor="middle">
+                    fun facts?
+                </textPath>
+            </text>
+        </svg>
+        <img src="images/smiley.png" alt="Smiley" class="smiley">
+    </button>
+</div>
                         <p>As a queer New Yawka outside of New Yawk, I believe in the power of inclusivity and empathy, infusing my designs with authenticity and understanding. I’m all about blending artistry with storytelling to create a captivating user experience. I’m also a Libra that can make decisions.</p>
                     </div>
                 </section>
@@ -100,44 +107,46 @@
         </div>
 
         <br><br><br><br><br><br><br><br>
-            <section>
-                <section class="footer">
-                    <div>
-                        <h2> WERE YOU EXPECTING A FOOTER?</h2>
-                        <h1> GET IN TOUCH</h1>
-                        
-                    <form action="">
-                        <div class="input-row">
-                            <div class="input-group">
-                                <label for="fname">first name*</label>
-                                <input type="text" id="fname">
-                            </div>
-                            <br><br>
-                            <div class="input-group">
-                                <label for="lname">last name*</label>
-                                <input type="text" id="lname" name="lname">
-                            </div>
-                            <br><br>
-                            <div class="input-group">
-                                <label for="email">email address*</label>
-                                <input type="text" id="email" name="email">
-                            </div>
-                        <br><br><br><br><br>
-                            <div class="input-group">
-                                <label for="subject">subject*</label>
-                                <input type="text" id="subject" name="subject">
-                            </div>
-                            <br><br>
-                            <div class="input-group">
-                                <label for="message">message*</label>
-                                <textarea id="message" name="message" rows="5" cols="50"></textarea>
-                            </div>
-                        <br><br>
+        <section class="footer">
+            <div class="footer-content">
+                <img src="images/foot.png" alt="Foot" class="foot-img">
+                <div class="footer-text">
+                    <h2>WERE YOU EXPECTING A FOOTER?</h2>
+                    <h1>GET IN TOUCH</h1>
+                    <form action="" class="contact-form">
+                        <div class="input-group">
+                            <label for="fname">first name*</label>
+                            <input type="text" id="fname" name="fname">
+                        </div>
+                        <div class="input-group">
+                            <label for="lname">last name*</label>
+                            <input type="text" id="lname" name="lname">
+                        </div>
+                        <div class="input-group">
+                            <label for="email">email address*</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="input-group">
+                            <label for="subject">subject*</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="input-group">
+                            <label for="message">message*</label>
+                            <textarea id="message" name="message" rows="5" cols="50"></textarea>
+                        </div>
                         <input type="submit" value="submit">
                     </form>
-                    </div>
-                </section>
-            </section>
-        </div>
+                </div>
+                <img src="images/wink .png" alt="Wink" class="wink-img">
+            </div>
+            <div class="footer-socials">
+                <p>we're all connected</p>
+                <div class="social-icons">
+                    <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
+                    <a href="#"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+                    <a href="#"><img src="images/spotify.png" alt="Spotify"></a>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
